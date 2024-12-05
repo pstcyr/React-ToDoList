@@ -1,0 +1,79 @@
+* { /* Covers all elements. Used to remove any default maring or padding */
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.background {
+  background-color: 	#B9D9EB;
+  height: 100vh;
+  display: flex; /* Enables flexbox so elements can be easily aligned */
+  align-items: center; /* Centers items vertically / flipped when flex direction column */
+  flex-direction: column;
+}
+
+.inputContainer {
+  margin-top: 20px;
+}
+
+input{
+  padding: 20px;
+  margin: 5px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-family: 'Press Start 2P', system-ui;
+  font-size: 1.5rem;
+}
+
+.add{
+  padding: 20px;
+  margin: 5px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-family: 'Press Start 2P', system-ui;
+  font-size: 1.5rem;
+}
+
+.inputCard{
+  width: 751.33px;
+  height:24px;
+  background-color: white;
+  border-radius: 15px;
+  margin:20px;
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+  Font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputCard span {
+  flex:1;
+  text-align:left;
+}
+
+img {
+  width: 100px;
+  height: 24px;
+  cursor: pointer;
+  margin-left:10px;
+}
+
+.cardItems{
+  align-items: right;
+}
+
+.trash{
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background-image: src="../assets/trash.png";
+}
